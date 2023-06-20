@@ -16,6 +16,7 @@
 		</Item>
 		<Item Name="button_main.vi" Type="VI" URL="../button_main.vi"/>
 		<Item Name="button_subvi.vi" Type="VI" URL="../button_subvi.vi"/>
+		<Item Name="clusters.vi" Type="VI" URL="../clusters.vi"/>
 		<Item Name="moving_object.vi" Type="VI" URL="../moving_object.vi"/>
 		<Item Name="notify_main.vi" Type="VI" URL="../notify_main.vi"/>
 		<Item Name="notify_subvi.vi" Type="VI" URL="../notify_subvi.vi"/>
