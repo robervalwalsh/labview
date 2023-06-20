@@ -16,10 +16,16 @@
 		</Item>
 		<Item Name="button_main.vi" Type="VI" URL="../button_main.vi"/>
 		<Item Name="button_subvi.vi" Type="VI" URL="../button_subvi.vi"/>
+		<Item Name="moving_object.vi" Type="VI" URL="../moving_object.vi"/>
 		<Item Name="notify_main.vi" Type="VI" URL="../notify_main.vi"/>
 		<Item Name="notify_subvi.vi" Type="VI" URL="../notify_subvi.vi"/>
 		<Item Name="state_machine.vi" Type="VI" URL="../state_machine.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
