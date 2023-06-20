@@ -11,10 +11,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="typedefs" Type="Folder">
+			<Item Name="state_machine_types.ctl" Type="VI" URL="../typedefs/state_machine_types.ctl"/>
+		</Item>
 		<Item Name="button_main.vi" Type="VI" URL="../button_main.vi"/>
 		<Item Name="button_subvi.vi" Type="VI" URL="../button_subvi.vi"/>
 		<Item Name="notify_main.vi" Type="VI" URL="../notify_main.vi"/>
 		<Item Name="notify_subvi.vi" Type="VI" URL="../notify_subvi.vi"/>
+		<Item Name="state_machine.vi" Type="VI" URL="../state_machine.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
