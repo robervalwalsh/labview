@@ -13,6 +13,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="button_main.vi" Type="VI" URL="../button_main.vi"/>
 		<Item Name="button_subvi.vi" Type="VI" URL="../button_subvi.vi"/>
+		<Item Name="notify_main.vi" Type="VI" URL="../notify_main.vi"/>
+		<Item Name="notify_subvi.vi" Type="VI" URL="../notify_subvi.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
